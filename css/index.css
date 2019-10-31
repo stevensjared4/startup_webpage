@@ -18,6 +18,25 @@ body {
     padding:0;
 }
 
+.logo-container {
+    padding: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 0;
+    height: 30vh;
+    width: 100vw;
+    justify-content: center;
+}
+
+.logo-container img {
+    height: 90%;
+    width: 45%;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
 .searchbar-container {
     position:absolute;
     top:35%;
