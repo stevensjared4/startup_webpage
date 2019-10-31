@@ -160,3 +160,32 @@ div.link-label {
     font-size:1em;
     padding-top: 25px;
 }
+
+.footer-block {
+    padding: 1rem;
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-block-left a {
+    text-decoration: none;
+    color: #000;
+}
+
+div.link-icon {
+    position: relative;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    height:4vw;
+    width:4vw;
+    border-radius:50%;
+    cursor:pointer;
+    transition:0.2s ease-in-out
+}
+
+#footer-block-icons:hover {
+    color: #3b5998;
+}
