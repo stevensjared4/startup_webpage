@@ -25,21 +25,21 @@ body {
     align-items: center;
     position: relative;
     margin: 0;
-    height: 30vh;
+    height: 35vh;
     width: 100vw;
     justify-content: center;
 }
 
 .logo-container img {
-    height: 90%;
-    width: 45%;
+    height: 200px;
+    width: 400px;
     margin: 10px;
     padding-bottom: 10px;
 }
 
 .searchbar-container {
     position:absolute;
-    top:35%;
+    top:40%;
     left:50%;
     transform:translate(-50%,-50%);
     height:60px;
@@ -117,6 +117,7 @@ body {
 
 .links-container {
     max-width:calc(28vw + 80px);
+    padding-top: 10px;
 }
 
 a.link-outer {
