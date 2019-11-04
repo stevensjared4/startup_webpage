@@ -68,12 +68,10 @@ body {
 }
 
 #searchbar:focus {
-
 	outline: none;
 	border: none;
 	margin: 0;
 	padding: 0;
-
 }
 
 .suggestions-container {
@@ -220,7 +218,6 @@ div.link-label {
 
 #footer-block-icons {
     position: relative;
-
 }
 
 #footer-block-icons:hover {
