@@ -113,6 +113,16 @@ body {
     color: #eee;
 }
 
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: navy;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
 .links-container {
     max-width: calc(28vw + 80px);
     padding-top: 35px;
