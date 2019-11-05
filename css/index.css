@@ -86,7 +86,8 @@ body {
 
 .links-container {
     max-width: calc(28vw + 80px);
-    padding-top: 35px;
+    padding-top: 75px;
+    margin: auto;
 }
 
 a.link-outer {
