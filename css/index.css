@@ -95,9 +95,9 @@ a.link-outer {
     text-decoration: none;
     position: relative;
     float: left;
-    margin: 10px;
-    height: 7vw;
-    width: 7vw;
+    margin: 5px;
+    height: 6vw;
+    width: 6vw;
 }
 
 div.link-icon {
