@@ -1,3 +1,12 @@
+@media only screen and (max-height: 899px) {
+    .logo-container img {
+         height: 100px;
+         width: 200px;
+         margin: 10px;
+         padding-bottom: 10px;
+    }
+}
+
 body {
     background:rgb(20, 20, 20);
     font-family: 'Roboto Condensed', sans-serif;
@@ -31,10 +40,10 @@ body {
 }
 
 .logo-container img {
-    height: 200px;
-    width: 400px;
+    height: 300px;
+    width: 600px;
     margin: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
 }
 
 .searchbar-container {
@@ -90,6 +99,13 @@ body {
     margin: auto;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-top: 20px;
+    justify-content: center;
+}
+
 a.link-outer {
     display: block;
     text-decoration: none;
@@ -98,6 +114,7 @@ a.link-outer {
     margin: 5px;
     height: 6vw;
     width: 6vw;
+    padding: 15px;
 }
 
 div.link-icon {
@@ -112,6 +129,7 @@ div.link-icon {
     transition: 0.2s ease-in-out;
     display: flex;
     justify-content: center;
+    margin-bottom: 0px;
 }
 
 div.link-icon:hover img {
@@ -119,7 +137,7 @@ div.link-icon:hover img {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 55px;
+    width: 75px;
     transition: 0.2s ease-in-out;
 }
 
@@ -136,7 +154,7 @@ div.link-icon img {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 45px;
+    width: 65px;
     transition: 0.2s ease-in-out;
 }
 
@@ -149,8 +167,9 @@ div.link-label {
     height: 1.3em;
     line-height: 1.3em;
     color: #eee;
-    font-size: 0.9em;
-    padding-top: 25px;
+    font-size: 1.0em;
+    padding-top: 20px;
+    font-weight: 600;
 }
 
 .footer-block {
